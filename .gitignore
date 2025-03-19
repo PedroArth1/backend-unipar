@@ -1,0 +1,31 @@
+# Ignorar arquivos de build
+/target/
+/build/
+/.gradle/
+/.mvn/
+/*.jar
+/*.war
+/*.ear
+
+# Ignorar arquivos de IDE
+/.idea/
+/*.iml
+/.vscode/
+/*.classpath
+/*.project
+/*.settings/
+
+# Ignorar arquivos de log
+/*.log
+/logs/
+
+# Ignorar arquivos de configuração local
+/src/main/resources/application-dev.properties
+/src/main/resources/application-local.properties
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações do NetBeans
+nb-configuration.xml
